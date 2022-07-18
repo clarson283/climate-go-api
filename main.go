@@ -9,8 +9,6 @@ import (
 )
 
 func main() {
-	log.Info().Msg("hello world!")
-
 	conf := configs.GetConfig()
 	fmt.Println(conf)
 
